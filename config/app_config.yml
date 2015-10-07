@@ -1,0 +1,13 @@
+defaults: &defaults
+  github:
+    clientId: d65a6688c21f95c96c85
+    clientSecret: efc41a9d7a140ee8d6e8f685fe11ae6d6045df64
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
